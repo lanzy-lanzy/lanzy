@@ -63,22 +63,13 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-            ],
-        },
-    },
-]
-
-TEMPLATES = [
-    {
-        # other settings
-        'OPTIONS': {
-            'context_processors': [
-                # other processors
                 'myapp.context_processors.visitor_count',
             ],
         },
     },
 ]
+
+
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
