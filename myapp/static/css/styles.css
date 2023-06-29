@@ -1,5 +1,5 @@
 body {
-  background-color: #0d47a1;
+  background-color: #3300ff;
   padding: 20px;
 }
 
@@ -7,7 +7,7 @@ body {
 .skeuomorphic,
 .contact-card,
 .header {
-  background-color: #e0e0e0;
+  background-color: #f0f0f0;
   border-radius: 10px;
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.8);
   transition: transform 0.3s ease;
@@ -44,7 +44,7 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #4fc3f7;
+  background-color: #6c757d;
 }
 
 .contact-info {
@@ -70,16 +70,16 @@ body {
 .contact-link {
   font-size: 16px;
   text-decoration: none;
-  color: #e0e0e0;
+  color: #333333;
   transition: color 0.3s ease;
 }
 
 .contact-link:hover {
-  color: #81d4fa;
+  color: #007bff;
 }
 
 .header {
-  background-color: #01579b;
+  background-color: #3300ff;
   padding: 10px 0;
 }
 
@@ -107,14 +107,14 @@ body {
 }
 
 .navbar-nav .nav-link {
-  color: #e0e0e0;
+  color: #333;
   font-size: 18px;
   margin-left: 20px;
   transition: color 0.3s ease;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #a7ffeb;
+  color: #555;
 }
 
 @media (max-width: 767px) {
@@ -143,21 +143,23 @@ body {
   }
 }
 
-/* Additional custom styles for a more appealing look */
+/* Additional custom styles for a neumorphic look */
 
 .neumorphic {
-  background-color: #e0e0e0;
+  background-color: #f0f0f0;
   border: none;
-  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2), -6px -6px 12px rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1), -10px -10px 20px rgba(255, 255, 255, 0.8);
+  transition: transform 0.3s ease;
 }
 
 .neumorphic:hover {
-  transform: translateY(-5px);
+  transform: scale(1.05);
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #e0e0e0;
+  background-color: #f0f0f0;
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -183,7 +185,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #4fc3f7;
+  background-color: #6c757d;
 }
 
 .carousel-control-prev-icon::before {
