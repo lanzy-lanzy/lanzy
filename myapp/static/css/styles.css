@@ -4,6 +4,7 @@ body {
   background-size: cover;
 }
 
+/* Add your custom CSS styles here */
 .card {
   background-color: #ffffff;
   border-radius: 10px;
@@ -53,8 +54,14 @@ body {
   border-radius: 50%;
   background-color: #6c757d;
 }
-
 .contact-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+ .contact-card {
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -101,8 +108,10 @@ body {
   color: #007bff;
 }
 
+  /* Custom CSS styles for the header */
+/* Custom CSS styles for the header */
 header {
-  background-color: #3300ff;
+  background-color: 3300ff;
   padding: 10px 0;
 }
 
@@ -171,10 +180,6 @@ header {
   .navbar-toggler {
     margin-right: 10px;
   }
-}
-
-/* Additional custom styles for a more appealing look */
-
 .neumorphic {
   background-color: #ffffff;
   border-radius: 10px;
@@ -237,3 +242,4 @@ header {
   object-fit: cover;
   border-radius: 10px;
 }
+to make it more appealing 
