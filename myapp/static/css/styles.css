@@ -1,25 +1,29 @@
 body {
-  background-image: url("static/img/bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #f0f0f0;
+  padding: 20px;
 }
 
-.card {
+.card,
+.skeuomorphic,
+.contact-card,
+.header {
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.8);
   transition: transform 0.3s ease;
 }
 
-.card:hover {
+.card:hover,
+.skeuomorphic:hover,
+.contact-card:hover,
+.header:hover {
   transform: scale(1.05);
 }
 
-.skeuomorphic {
-  background-color: #f0f0f0;
-  border: 1px solid #dcdcdc;
-  border-radius: 10px;
-  padding: 20px;
+.card-header,
+.card-title {
+  font-size: 24px;
+  padding: 15px;
 }
 
 .skeuomorphic h2 {
@@ -32,17 +36,6 @@ body {
   margin-bottom: 20px;
 }
 
-.skeuomorphic ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.skeuomorphic ul li {
-  padding-left: 20px;
-  position: relative;
-  margin-bottom: 10px;
-}
-
 .skeuomorphic ul li:before {
   content: "";
   position: absolute;
@@ -52,22 +45,6 @@ body {
   height: 8px;
   border-radius: 50%;
   background-color: #6c757d;
-}
-
-.contact-card {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.contact-card:hover {
-  transform: scale(1.05);
-}
-
-.card-title {
-  font-size: 28px;
-  font-weight: bold;
 }
 
 .contact-info {
@@ -101,16 +78,9 @@ body {
   color: #007bff;
 }
 
-header {
+.header {
   background-color: #3300ff;
   padding: 10px 0;
-}
-
-.neumorphic {
-  background-color: #999999;
-  border: 1px solid #dcdcdc;
-  border-radius: 10px;
-  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.8);
 }
 
 .navbar-brand img {
@@ -176,28 +146,22 @@ header {
 /* Additional custom styles for a more appealing look */
 
 .neumorphic {
-  background-color: #ffffff;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  background-color: #f0f0f0;
+  border: none;
+  box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.8);
 }
 
 .neumorphic:hover {
   transform: scale(1.05);
 }
 
-.card-header {
-  font-size: 24px;
-  padding: 15px;
-}
-
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-color: #ffffff;
+  background-color: #f0f0f0;
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  border: 1px solid #dddddd;
+  border: 1px solid #dcdcdc;
 }
 
 .carousel-control-prev,
